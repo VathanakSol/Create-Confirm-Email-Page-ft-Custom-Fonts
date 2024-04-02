@@ -6,6 +6,12 @@ import Error from "./error";
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 
 import { inter, localCustomFont, suwannaphum, lilita_One } from './fonts';
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "E-Commerce",
+	description: "ISAD Website",
+}
 
 export default function RootLayout({
 	children,
